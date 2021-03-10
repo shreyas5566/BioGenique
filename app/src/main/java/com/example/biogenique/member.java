@@ -1,10 +1,10 @@
 package com.example.biogenique;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class member extends AppCompatActivity {
 
@@ -20,5 +20,6 @@ public class member extends AppCompatActivity {
 
     public void signup(View v){
         Intent myIntent = new Intent(getBaseContext(), signup.class);
+        startActivity(myIntent);
     }
 }
